@@ -1,0 +1,23 @@
+sdkversion: 3.3.3
+name: Toolbar
+version: 1.0
+vendor: rhomobile
+build: debug
+bbver: 4.6
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator5.1
+  provisionprofile:
+  codesignidentity:
+  entitlements:
+  BundleIdentifier: com.rhomobile.toolbar
+  BundleURLScheme: toolbar
+wp:
+  productid: 'e1f6c130-bc4b-012f-2a58-1040f37b2b30'
+symbian:
+  uid: '0xe3d8009a'
+android:
+  version: 2.3.3
+
+extensions: ["json", "another-extension"]
